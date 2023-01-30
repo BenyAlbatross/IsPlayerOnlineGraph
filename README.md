@@ -20,7 +20,8 @@ Visualisation Placeholder (Screenshot of actual graph coming soon):
 ### How to use:
 - Tested in python 3.10
 - Install required libraries. You may wish to use zipapp to create a .pyz archive
-- Create a MongoDB database on Atlas. **Fill in the variables for the database access, database name and collection** at the top of the scripts
+- Create a MongoDB database on Atlas. 
+- **Fill in the variables for the database access, database name, collection and your Olson timezone name** at the top of the scripts
 - Run a cron job every 5 minutes. The script extrapolate the presence of a player to the next 5th minute. You may wish to use cronitor to track the cron job
 - Run the dash webapp to view the plot
 
